@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.0917.1006                               -->
+<workbook source-build='2021.3.1 (20213.21.0917.1006)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (LongCorpusMethod)' inline='true' name='federated.0kplnea0vpf1pr12tpf8f18r17zq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LongCorpusMethod' name='excel-direct.1dt7v1f0p4c8zc1grnnl00sihxb0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/HP/Desktop/Equipe-ILC/Automatisation/19-07-21-Scopus/Fusion/LastCorpus/Intensive Treatment/LongCorpusMethod.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1dt7v1f0p4c8zc1grnnl00sihxb0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P892:no:A1:P892:0' header='yes' outcome='2'>
+            <column datatype='string' name='Title' ordinal='0' />
+            <column datatype='string' name='Abstract' ordinal='1' />
+            <column datatype='string' name='Author Keywords' ordinal='2' />
+            <column datatype='string' name='Link' ordinal='3' />
+            <column datatype='integer' name='Year' ordinal='4' />
+            <column datatype='integer' name='Cited by' ordinal='5' />
+            <column datatype='string' name='Page start' ordinal='6' />
+            <column datatype='string' name='Page end' ordinal='7' />
+            <column datatype='string' name='Page count' ordinal='8' />
+            <column datatype='string' name='DOI' ordinal='9' />
+            <column datatype='string' name='Authors' ordinal='10' />
+            <column datatype='string' name='Document Type' ordinal='11' />
+            <column datatype='string' name='Source' ordinal='12' />
+            <column datatype='string' name='From--&gt;Too' ordinal='13' />
+            <column datatype='string' name='Method Used' ordinal='14' />
+            <column datatype='string' name='is it a survey?' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1dt7v1f0p4c8zc1grnnl00sihxb0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P892:no:A1:P892:0' header='yes' outcome='2'>
+            <column datatype='string' name='Title' ordinal='0' />
+            <column datatype='string' name='Abstract' ordinal='1' />
+            <column datatype='string' name='Author Keywords' ordinal='2' />
+            <column datatype='string' name='Link' ordinal='3' />
+            <column datatype='integer' name='Year' ordinal='4' />
+            <column datatype='integer' name='Cited by' ordinal='5' />
+            <column datatype='string' name='Page start' ordinal='6' />
+            <column datatype='string' name='Page end' ordinal='7' />
+            <column datatype='string' name='Page count' ordinal='8' />
+            <column datatype='string' name='DOI' ordinal='9' />
+            <column datatype='string' name='Authors' ordinal='10' />
+            <column datatype='string' name='Document Type' ordinal='11' />
+            <column datatype='string' name='Source' ordinal='12' />
+            <column datatype='string' name='From--&gt;Too' ordinal='13' />
+            <column datatype='string' name='Method Used' ordinal='14' />
+            <column datatype='string' name='is it a survey?' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P892:no:A1:P892:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abstract</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Abstract]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Abstract</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Author Keywords</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Author Keywords]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Author Keywords</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Link</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Link]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Link</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cited by</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cited by]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cited by</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Page start</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Page start]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Page start</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Page end</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Page end]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Page end</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Page count</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Page count]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Page count</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOI</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DOI]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DOI</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Authors</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Authors]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Authors</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Document Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Document Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Document Type</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Source]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Source</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From--&gt;Too</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[From--&gt;Too]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>From--&gt;Too</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Method Used</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Method Used]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Method Used</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is it a survey?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[is it a survey?]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>is it a survey?</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Method Used]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]' role='measure' type='quantitative' />
+      <column caption='Is It A Survey?' datatype='string' name='[is it a survey?]' role='dimension' type='nominal' />
+      <column-instance column='[Method Used]' derivation='None' name='[none:Method Used:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Method Used,Year)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Method Used:nk]' />
+          <groupfilter function='level-members' level='[none:Year:qk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Method Used:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;direct&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;statistical&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;interlingual&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;neural&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;hybrid&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italie&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C'>
+            <properties context=''>
+              <relation connection='excel-direct.1dt7v1f0p4c8zc1grnnl00sihxb0' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:P892:no:A1:P892:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Title' ordinal='0' />
+                  <column datatype='string' name='Abstract' ordinal='1' />
+                  <column datatype='string' name='Author Keywords' ordinal='2' />
+                  <column datatype='string' name='Link' ordinal='3' />
+                  <column datatype='integer' name='Year' ordinal='4' />
+                  <column datatype='integer' name='Cited by' ordinal='5' />
+                  <column datatype='string' name='Page start' ordinal='6' />
+                  <column datatype='string' name='Page end' ordinal='7' />
+                  <column datatype='string' name='Page count' ordinal='8' />
+                  <column datatype='string' name='DOI' ordinal='9' />
+                  <column datatype='string' name='Authors' ordinal='10' />
+                  <column datatype='string' name='Document Type' ordinal='11' />
+                  <column datatype='string' name='Source' ordinal='12' />
+                  <column datatype='string' name='From--&gt;Too' ordinal='13' />
+                  <column datatype='string' name='Method Used' ordinal='14' />
+                  <column datatype='string' name='is it a survey?' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Feuille 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (LongCorpusMethod)' name='federated.0kplnea0vpf1pr12tpf8f18r17zq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kplnea0vpf1pr12tpf8f18r17zq'>
+            <column datatype='string' name='[Method Used]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Sheet1' datatype='integer' name='[__tableau_internal_object_id__].[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Method Used]' derivation='None' name='[none:Method Used:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kplnea0vpf1pr12tpf8f18r17zq].[none:Method Used:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Method Used:nk]' />
+              <groupfilter function='empty-level' member='[none:Method Used:nk]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kplnea0vpf1pr12tpf8f18r17zq].[none:Method Used:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0kplnea0vpf1pr12tpf8f18r17zq].[none:Method Used:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0kplnea0vpf1pr12tpf8f18r17zq].[__tableau_internal_object_id__].[cnt:Sheet1_FD9F77C3A14E4834B4253A14BCE65F3C:qk]</rows>
+        <cols>[federated.0kplnea0vpf1pr12tpf8f18r17zq].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{D9F0C597-D5CB-400B-8B10-6A9D21145BB5}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Feuille 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0kplnea0vpf1pr12tpf8f18r17zq].[none:Method Used:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{76D0EA60-8C7F-4B6C-82ED-441B75A7E42D}' />
+    </window>
+  </windows>
+</workbook>

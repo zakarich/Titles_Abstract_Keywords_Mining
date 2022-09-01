@@ -1,0 +1,15 @@
+("Document Title":systematic AND machine AND translat* )
+
+Total : 12
+########################################################
+("Document Title":"machine translat*" AND systematic)
+
+Total : 8 
+########################################################
+(("Document Title":"machine translat*" AND (review* OR survey*)))
+
+Total : 25
+########################################################
+("Document Title":review* OR survey*) AND ("Document Title":machine AND translat*)
+
+Total : 38

@@ -1,0 +1,14 @@
+import pyLDAvis
+import pyLDAvis.gensim
+#from pyLDAvis import gensim
+#import pyLDAvis.gensim_models as gensimvis
+import pickle 
+
+
+# Visualize the topics
+pyLDAvis.enable_notebook()
+LDAvis_prepared = gensim.prepare(lda_model, corpus, id2word)
+LDAvis_prepared
+
+#lda_viz = gensimvis.prepare(ldamodel, corpus, dictionary)
+#lda_viz
